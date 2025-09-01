@@ -1,0 +1,59 @@
+
+body{background-color: #fff;} 
+*{text-align: center;}
+*{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+p {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+h1{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   ;
+    font-weight: bolder;
+    background-color: #B8C4BB;
+    color: black;
+}
+h2{     
+    background-color: #B8C4BB;
+    color: black;
+}
+h2 a{     
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    
+      display: flexbox;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #69140E;
+      padding: 10px 20px;
+      
+    }
+.nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+   
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .nav-links li a:hover {
+      color: #ff9800; /* Hover effect */
+    }
+#footer {
+    font-size: 20px; /* Use a valid unit */
+    color: rgb(0, 0, 0);    /* Optional: make text visible on dark background */
+}
+#but{font-size: 20px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid red;
+}
+
