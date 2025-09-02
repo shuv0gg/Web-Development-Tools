@@ -5,7 +5,8 @@ body{background-color: #fff;}
 p {
     background-color: lightblue;
     border: 2px solid black;
-    padding: 20px;
+    border-radius: 20px ;
+    padding: 5px 10px 15px 20px;
     margin: 20px;
 }
 h1{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   ;
@@ -27,6 +28,8 @@ h2 a{
       justify-content: space-between;
       align-items: center;
       background-color: #69140E;
+      border: 2px solid black;
+    border-radius: 20px ;
       padding: 10px 20px;
       
     }
@@ -55,5 +58,24 @@ h2 a{
     background-color: black;
     color: #fff;
     border: 2px solid red;
+}
+.nav{
+    background-color: black;
+    height: 60px;
+    align-items: left;  
+    font-size: 25px;
+}
+.div1 a{
+    text-decoration: none;
+    color: white;
+    align-items: left;
+    gap: 200px;
+}
+#logo{
+    text-decoration: none;
+    color:#ff9800;
+    text-align: left;
+    
+    
 }
 
